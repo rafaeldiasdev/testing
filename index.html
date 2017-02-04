@@ -49,7 +49,7 @@
   <!-- SOBRE Parallax -->
   <div id="sobre" class="parallax-container">
     <div class="parallax"><img id="image-test" src="img/teste1.jpg"></div>
-    <div class="transparent">
+    <div class="section transparent">
       <div class="row container">
         <h2 class="header right">Projetos </br>de Marketing </br><span class="deep-purple-text">especiais</span> </br>sempre com o
           </br><span class="deep-purple-text">jeito</span> e <span class="deep-purple-text">estilo</span> </br>para a sua
@@ -80,19 +80,24 @@
       <div class="row container">
         <h2 class="header center">Cases</h2>
       </div>
-      
-      <!-- CASES Tabs -->
-      <ul id="tabs-swipe-demo" class="tabs center transparent">
-        <li class="tab col s3"><a class="active white-text"  href="#eventos">EVENTOS</a></li>
-        <li class="tab col s3"><a class="white-text" href="#feiras">FEIRAS</a></li>
-        <li class="tab col s3"><a class="white-text" href="#campanhas">CAMPANHAS DE INCENTIVO</a></li>
-        <li class="tab col s3"><a class="white-text" href="#viagens">VIAGENS DE INCENTIVO</a></li>
-      </ul>
-      <!-- FIM CASES Tabs -->
 
-      <!-- CASES Images -->
-      <!-- EVENTOS Case -->
-      <div id="eventos" class="container">
+      <!-- TABS -->
+      <div class="row">
+        <ul id="tabs-swipe-demo" class="tabs">
+          <li class="tab col s3"><a class="active black-text" href="#eventos">Eventos</a></li>
+          <li class="tab col s3"><a class="black-text" href="#feiras">Feiras</a></li>
+          <li class="tab col s3"><a class="black-text" href="#campanhas">Campanhas & Endomarketing</a></li>
+          <li class="tab col s3"><a class="black-text" href="#viagens">Viagens</a></li>
+        </ul>
+        <div id="eventos" class="col s12 blue">Test 1</div>
+        <div id="feiras" class="col s12 red">Test 2</div>
+        <div id="campanhas" class="col s12 green">Test 3</div>
+        <div id="viagens" class="col s12 green">Test 3</div>      
+      </div>
+    
+  <!-- CASES Images -->
+   <!-- EVENTOS Case -->
+      <div id="eventos" class="container ">
         <div class="row">
           <div class="col s4"><img class="materialboxed cases" data-caption="Texto" src="img/images.png"></div>
           <div class="col s4"><img class="materialboxed cases" data-caption="Texto" src="img/images.png"></div>
@@ -107,22 +112,6 @@
           <div class="col s4"><img class="materialboxed cases" data-caption="Texto" src="img/images.png"></div>
         </div>
       </div>
-      <!-- CAMPANHAS Case -->
-      <div id="campanhas" class="container">
-        <div class="row">
-          <div class="col s4"><img class="materialboxed cases" data-caption="Texto" src="img/images.png"></div>
-          <div class="col s4"><img class="materialboxed cases" data-caption="Texto" src="img/images.png"></div>
-          <div class="col s4"><img class="materialboxed cases" data-caption="Texto" src="img/images.png"></div>
-        </div>
-      </div> <!-- FIM  CAMPANHAS Case -->
-      <!-- VIAGENS Case -->
-      <div id="viagens" class="container">
-        <div class="row">
-          <div class="col s4"><img class="materialboxed cases" data-caption="Texto" src="img/images.png"></div>
-          <div class="col s4"><img class="materialboxed cases" data-caption="Texto" src="img/images.png"></div>
-          <div class="col s4"><img class="materialboxed cases" data-caption="Texto" src="img/images.png"></div>
-        </div>
-      </div> <!-- FIM VIAGENS Case -->
       <!-- FIM CASES Images -->
     </div><!-- FIM Section -->
   </div>
@@ -181,16 +170,16 @@
   <!-- FIM CONTATO Parallax -->
   <!-- FIM CONTEÚDO PARALLAX Flicka -->
   
+  <!-- Jquery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/scroll-mooth.js"></script>
+  
   <!-- Materialize Framework Javascript/Jquery -->
-  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
   <script type="text/javascript" src="js/navbar.js"></script>
   <script type="text/javascript" src="js/parallax.js"></script>
   <script type="text/javascript" src="js/tabs.js"></script>
-
-  <!-- Efeitos Javascript/Jquery -->
-  <script type="text/javascript" src="js/scroll-mooth.js"></script>
-
+  <script type="text/javascript" src="js/scroll-fire.js"></script>
 
 </body>
 
@@ -200,11 +189,6 @@
     <div class="container center">
       <a href="http://www.kodesoft.com.br"><img class="imgLogoKodesoft" src="img/kodesoft_logo.png"></a>
       <div><span>&nbsp <a href="http://www.kodesoft.com.br">KODESOFT © 2017 Todos os Direitos Reservados</a></span></div>
-    </div>
-    <div class="audio">
-      <audio controls autoplay loop>
-        <source src="sound/teste.mp3" type="audio/mpeg">
-      </audio>
     </div>
   </div>
 </footer>
