@@ -1,0 +1,46 @@
+
+/* Flicka Geral */
+body {
+    font-family: 'futura_ltbold';
+    line-height: 1.1em (55px);
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(0,0,0);
+    color: rgb(255,255,255);
+}
+
+li:hover { background-color: rgb(103,59,183); }
+a:link { color: rgb(204,204,204); }
+ 
+.audio { display: none;}
+/* Flicka Imagens */
+.imgLogoFlicka { width: 48%; }
+
+
+/* Parallax Componentes */
+.header { margin-top: 7%; }
+.header-servicos { margin-top: 15%; }
+
+.cases { width: 100%;  border: none; filter: grayscale(100%); }
+.cases:hover { filter: grayscale(0%); }
+
+.clientes { width: 70%; }
+.clientes-content { 
+    background-color: white; 
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: auto auto;
+    padding: 24px 15px;
+    padding-top: 24px;
+    padding-right: 15px;
+    padding-bottom: 24px;
+    padding-left: 15px;
+    }
+
+.copyright { margin-top: 23%; }
+.imgLogoKodesoft { width: 5%; }
